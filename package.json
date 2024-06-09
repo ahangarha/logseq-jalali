@@ -1,0 +1,32 @@
+{
+  "name": "logseq-jalali",
+  "version": "0.0.1",
+  "description": "A Logseq plugin to show Jalali date.",
+  "main": "dist/index.html",
+  "repository": "https://github.com/ahangarha/logseq-jalali",
+  "author": "Mostafa Ahangarha",
+  "license": "AGPL-3.0-or-later",
+  "targets": {
+    "main": false
+  },
+  "scripts": {
+    "build": "parcel build --no-source-maps index.html --public-url ./",
+    "watch": "parcel watch index.html --public-url ./",
+    "lint": "eslint '**/*.js'",
+    "lint-fix": "eslint --fix '**/*.js'",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "@logseq/libs": "^0.0.17"
+  },
+  "devDependencies": {
+    "eslint": "^8.56.0",
+    "eslint-config-airbnb-base": "^15.0.0",
+    "eslint-plugin-import": "^2.29.1",
+    "parcel": "^2.11.0"
+  },
+  "logseq": {
+    "icon": "icon.png",
+    "id": "logseq-jalali"
+  }
+}
