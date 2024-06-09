@@ -1,7 +1,7 @@
 {
-  "name": "logseq-jalali",
+  "name": "logseq-plugin-jalali",
   "version": "0.0.1",
-  "description": "A Logseq plugin to show Jalali date.",
+  "description": "A Logseq plugin to show Jalali date",
   "main": "dist/index.html",
   "repository": "https://github.com/ahangarha/logseq-jalali",
   "author": "Mostafa Ahangarha",
@@ -27,6 +27,10 @@
   },
   "logseq": {
     "icon": "icon.png",
+    "title": "Logseq Jalali",
+    "description": "A Logseq plugin to show Jalali date",
+    "repository": "https://github.com/ahangarha/logseq-jalali",
+    "author": "Mostafa Ahangarha",
     "id": "logseq-jalali"
   }
 }
